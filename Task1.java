@@ -9,7 +9,7 @@ class Main {
         int totalWins = 0;
 
         while (continuePlaying) {
-            int targetNumber = random.nextInt(100) + 1; // Generates a number between 1 and 100
+            int targetNumber = random.nextInt(100) + 1; 
             int attempts = 0;
             final int maxTries = 7;
             boolean isCorrect = false;
